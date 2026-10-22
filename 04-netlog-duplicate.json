@@ -1,0 +1,21 @@
+{
+ "summary": {
+  "url": "/newmoi/semantic-models/3/sources",
+  "status": 200,
+  "sources_count": 0,
+  "jobs_count": 0,
+  "skipped_existing_file_ids": [
+   "96f3cc29-abc2-5a7d-8343-0c53a5cc1063"
+  ],
+  "skipped_existing_table_ids": null
+ },
+ "raw": {
+  "t": 1792705183123,
+  "via": "xhr",
+  "method": "POST",
+  "url": "/newmoi/semantic-models/3/sources",
+  "status": 200,
+  "req": "{\"sources\":[],\"source_selections\":[{\"kind\":\"volume_files\",\"volume_id\":11,\"all_selected\":false,\"selected_file_ids\":[\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\"]}]}",
+  "body": "{\"code\":\"OK\",\"data\":{\"data_domain\":{\"model_id\":3,\"catalog_id\":1,\"database_id\":6,\"raw_volume_id\":12,\"processed_volume_id\":13,\"ensure_status\":\"ready\",\"last_checked_at\":1792705000},\"sources\":[],\"jobs\":[],\"skipped_existing_file_ids\":[\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\"]},\"msg\":\"OK\"}\n"
+ }
+}

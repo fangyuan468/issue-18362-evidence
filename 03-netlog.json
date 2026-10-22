@@ -1,0 +1,29 @@
+[
+ {
+  "t": 1792705088721,
+  "via": "xhr",
+  "method": "GET",
+  "url": "/newmoi/semantic-models?page_size=10&include_append_capability=true",
+  "status": 200,
+  "req": "",
+  "body": "{\"code\":\"OK\",\"msg\":\"OK\",\"data\":{\"items\":[{\"id\":4,\"name\":\"ggacc-b2-701442\",\"description\":\"acc-18362 B2\",\"tables\":[],\"files\":{\"embedding_model\":\"bge-m3\",\"vector_table\":\"kb_4_text_index\"},\"created_at\":1792705010,\"updated_at\":1792705010,\"source_counts\":{\"files\":0,\"tables\":0,\"total\":0},\"can_append_sources\":true,\"can_write\":true},{\"id\":3,\"name\":\"ggacc-probe-701442\",\"description\":\"probe\",\"tables\":[],\"files\":{\"embedding_model\":\"bge-m3\",\"vector_table\":\"kb_3_text_index\"},\"created_at\":1792705001,\"updated_at\":1792705001,\"source_counts\":{\"files\":0,\"tables\":0,\"total\":0},\"can_append_sources\":true,\"can_write\":true}],\"total\":2}}\n"
+ },
+ {
+  "t": 1792705135639,
+  "via": "xhr",
+  "method": "POST",
+  "url": "/newmoi/workspaces/5b149d3b-2fc0-0f33-8540-135f904abdfd/agent-artifacts/resolve",
+  "status": 200,
+  "req": "{\"items\":[{\"artifact_id\":\"artifact_1c7aecaf46892c5b09a4f358d0007db82eb1dba6c0c66764efdeff6e931abfdf\",\"version\":1}]}",
+  "body": "{\"code\":0,\"data\":{\"items\":[{\"artifact_id\":\"artifact_1c7aecaf46892c5b09a4f358d0007db82eb1dba6c0c66764efdeff6e931abfdf\",\"version\":1,\"file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"volume_id\":11,\"placement_id\":1,\"file_name\":\"notes.txt\",\"content_type\":\"text/plain; charset=utf-8\",\"size\":26,\"status\":\"completed\"}],\"failed\":[]}}\n"
+ },
+ {
+  "t": 1792705135771,
+  "via": "xhr",
+  "method": "POST",
+  "url": "/newmoi/semantic-models/3/sources",
+  "status": 200,
+  "req": "{\"sources\":[],\"source_selections\":[{\"kind\":\"volume_files\",\"volume_id\":11,\"all_selected\":false,\"selected_file_ids\":[\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\"]}]}",
+  "body": "{\"code\":\"OK\",\"data\":{\"data_domain\":{\"model_id\":3,\"catalog_id\":1,\"database_id\":6,\"raw_volume_id\":12,\"processed_volume_id\":13,\"ensure_status\":\"ready\",\"last_checked_at\":1792705000},\"sources\":[{\"row_id\":\"kb-source-433aa71c14917dcb7fd17296\",\"source_id\":\"kb-source-433aa71c14917dcb7fd17296\",\"source_type\":\"file\",\"model_id\":3,\"resource_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"source_resource_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"kb_resource_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"source_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"kb_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"display_name\":\"notes.txt\",\"path\":[\"default\",\"agent_chat_files\",\"file_list_86d0b3dcb8e2929e8f591b6eae253245\"],\"source_path\":\"default/agent_chat_files/file_list_86d0b3dcb8e2929e8f591b6eae253245\",\"db_name\":null,\"table_name\":null,\"size_bytes\":26,\"row_count\":null,\"ingest_status\":\"pending\",\"enabled\":true,\"expires_at\":null,\"expired\":false,\"effective_enabled\":true,\"force_enabled_after_expiry\":false,\"created_by\":\"7bfa49d1-68fc-4bc7-8823-4c75125a99f2\",\"updated_by\":\"7bfa49d1-68fc-4bc7-8823-4c75125a99f2\",\"updated_at\":1792705136,\"error\":null,\"governance_status\":\"managed\"}],\"jobs\":[{\"job_id\":\"kb-job-4c1a56070bd04d59dfdf484b\",\"source_id\":\"kb-source-433aa71c14917dcb7fd17296\",\"model_id\":3,\"job_type\":\"rag_ingest\",\"job_status\":\"pending\",\"idempotency_key\":\"kb-job-key-4c1a56070bd04d59dfdf484b\",\"operation_id\":\"lineage_register:kb-source-433aa71c14917dcb7fd17296\",\"source_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"kb_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"created_at\":1792705136,\"updated_at\":1792705136},{\"job_id\":\"kb-job-804a4c9cf7d4934676088693\",\"source_id\":\"kb-source-433aa71c14917dcb7fd17296\",\"model_id\":3,\"job_type\":\"copy\",\"job_status\":\"pending\",\"idempotency_key\":\"kb-job-key-804a4c9cf7d4934676088693\",\"source_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"kb_file_id\":\"96f3cc29-abc2-5a7d-8343-0c53a5cc1063\",\"created_at\":1792705136,\"updated_at\":1792705136}]},\"msg\":\"OK\"}\n"
+ }
+]
